@@ -2,8 +2,8 @@
 
 <template>
 	<div class="profile-tooltip-wrapper">
-        <v-icon class="pfp" name="fa-user" scale="1.2" />
-    </div>
+		<v-icon class="pfp" name="fa-user" scale="1.2" />
+	</div>
 </template>
 
 <style scoped>
@@ -14,10 +14,10 @@
 	border-radius: 50%;
 	margin-left: 25px;
 	margin-right: 5px;
-    text-align: center;
+	text-align: center;
 }
 
 .pfp {
-    margin-top: 25%;
+	margin-top: 25%;
 }
 </style>
