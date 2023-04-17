@@ -10,7 +10,7 @@
 
 <style scoped>
 .search-wrapper {
-    margin-right: 50px;
+    margin: auto;
 }
 
 .search-input {
@@ -19,5 +19,8 @@
     padding: 3px;
     user-select: none;
     outline: none;
+    width: 175px;
+    height: 20px;
+    font-size: large;
 }
 </style>
