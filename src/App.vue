@@ -1,14 +1,14 @@
 <script setup>
 //localhost:5173
 import Header from './components/Header.vue'
-import Home from './views/Home.vue';
+import router from './router'
+import { useStore } from './store'
+const store = useStore()
 </script>
 
 <template>
-<Header></Header>
-<Home></Home>
+	<Header></Header>
+	<router-view></router-view>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
